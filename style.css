@@ -1,21 +1,12 @@
 /* EG Confecções · estilo compartilhado (vitrine e painel) */
 :root{
-  --bg:#FBF6EF; --surface:#FFFFFF; --surface-2:#F3EADF; --ink:#2F2E2C; --muted:#6B655D; --line:#E7DAC9;
+  --bg:#FFFFFF; --surface:#FFFFFF; --surface-2:#F3EADF; --ink:#2F2E2C; --muted:#6B655D; --line:#E7DAC9;
   --bronze:#A2663F; --accent-text:#8A5230; --wa:#1E8E4E; --danger:#B3382C;
   --foot-bg:#2F2E2C; --foot-ink:#F3ECE2; --foot-muted:#B9AFA2;
   --serif:"Playfair Display",Georgia,"Times New Roman",serif;
   --sans:"Montserrat",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --shadow:0 1px 2px rgba(47,46,44,.06),0 10px 28px rgba(47,46,44,.08);
   color-scheme:light;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --bg:#1D1C1B; --surface:#272524; --surface-2:#302D2B; --ink:#F3ECE2; --muted:#B0A79B; --line:#3D3935;
-    --bronze:#C98B5F; --accent-text:#DDA47D; --wa:#1E8E4E; --danger:#E0786B;
-    --foot-bg:#141312; --foot-ink:#F3ECE2; --foot-muted:#9D9488;
-    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px rgba(0,0,0,.35);
-    color-scheme:dark;
-  }
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -41,6 +32,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .btn[disabled]{opacity:.55;pointer-events:none}
 
 /* topo */
+body .hero{background:var(--bg)}
 .top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:12px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
