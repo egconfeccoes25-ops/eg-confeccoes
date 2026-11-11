@@ -143,8 +143,8 @@
   {
    "id": "chaveiro-de-clique",
    "name": "Chaveiro De Clique",
-   "price": 8,
-   "category": "Chaveiros",
+   "price": 12,
+   "category": "Clique",
    "description": "Chaveiro de click de animais.",
    "details": {
     "material": "",
