@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>EG Confecções · Impressão 3D</title>
+<meta name="description" content="Catálogo de peças em impressão 3D da EG Confecções: chaveiros, presentes e lembranças. Peça direto pelo WhatsApp.">
+<meta name="theme-color" content="#FBF6EF">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FBF6EF'/%3E%3Ctext x='8' y='46' font-family='Georgia,serif' font-size='38' fill='%23A2663F'%3EE%3C/text%3E%3Ctext x='28' y='46' font-family='Georgia,serif' font-size='38' fill='%232F2E2C'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:linear-gradient(var(--bg),var(--surface-2))}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 9px,color-mix(in srgb,var(--bronze) 12%,transparent) 9px 10px);-webkit-mask-image:linear-gradient(90deg,transparent 30%,#000);mask-image:linear-gradient(90deg,transparent 30%,#000)}
+.hero-in{position:relative;display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center;padding-block:56px 52px}
+.eyebrow{font:600 11px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--accent-text)}
+.hero h1{font:500 clamp(32px,5.2vw,56px)/1.06 var(--serif);margin:14px 0 16px;text-wrap:balance}
+.hero h1 em{color:var(--bronze)}
+.hero p{margin:0 0 26px;max-width:46ch;color:var(--muted);font-size:17px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px}
+.hero .note{margin-top:22px;font-size:13px;color:var(--muted)}
+.vase{justify-self:center;width:min(100%,250px);height:auto}
+@media (max-width:760px){.hero-in{grid-template-columns:1fr;padding-block:36px}.vase{display:none}}
+
+.tools{display:grid;grid-template-columns:1fr auto;gap:14px 16px;align-items:center;padding-block:32px 8px}
+.search{position:relative}
+.search input{width:100%;height:46px;border:1px solid var(--line);border-radius:999px;background:var(--surface);padding:0 18px 0 44px;font-size:15px}
+.search input:focus{outline:2px solid var(--bronze);outline-offset:1px}
+.search svg{position:absolute;left:16px;top:50%;translate:0 -50%;width:18px;height:18px;stroke:var(--muted);fill:none;stroke-width:2}
+.sort{height:46px;border:1px solid var(--line);border-radius:999px;background:var(--surface);padding:0 16px;font-size:14px;cursor:pointer}
+.chips{grid-column:1/-1;display:flex;gap:8px;overflow-x:auto;padding-block:4px;scrollbar-width:thin}
+.chip{flex:none;min-height:40px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font:500 13px/1 var(--sans);cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.chip span{color:var(--muted);font-size:12px}
+.chip:hover{border-color:var(--bronze)}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip[aria-pressed=true] span{color:inherit;opacity:.7}
+.count{padding-block:14px 18px;font-size:13px;color:var(--muted)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(216px,1fr));gap:22px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s,border-color .2s;min-width:0}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--bronze) 45%,var(--line))}
+.open{all:unset;cursor:pointer;display:block;flex:1;box-sizing:border-box}
+.open:focus-visible{outline:2px solid var(--bronze);outline-offset:-2px;border-radius:18px 18px 0 0}
+.ph{aspect-ratio:1;background:var(--surface-2);position:relative;overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover}
+.ph::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0 5px,rgba(0,0,0,.03) 5px 6px)}
+.tag{position:absolute;left:10px;top:10px;z-index:1;background:var(--ink);color:var(--bg);font:600 10px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:6px 9px;border-radius:999px}
+.info{padding:14px 16px 6px}
+.cat{font:600 10px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--accent-text)}
+.info h3{margin:6px 0 6px;font:600 15px/1.3 var(--sans);text-wrap:balance}
+.price{font:500 22px/1 var(--serif);color:var(--ink)}
+.card .btn{margin:10px 16px 16px}
+.msg{grid-column:1/-1;text-align:center;color:var(--muted);padding:56px 16px}
+
+.det{position:relative;display:grid;grid-template-columns:1fr 1fr}
+.det .pic{background:var(--surface-2);display:grid;place-items:center;min-height:320px}
+.det .pic img{width:100%;height:100%;max-height:560px;object-fit:contain}
+.det .txt{padding:32px 28px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.det h2{margin:0;font:500 30px/1.15 var(--serif);text-wrap:balance}
+.det .price{font-size:30px;color:var(--accent-text)}
+.det p{margin:0;color:var(--muted)}
+.det dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:14px}
+.det dt{color:var(--muted)}
+.det dd{margin:0;font-weight:500}
+.qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;overflow:hidden;width:fit-content}
+.qty button{width:44px;height:44px;border:0;background:none;font-size:20px;cursor:pointer}
+.qty button:hover{background:var(--surface-2)}
+.qty output{min-width:34px;text-align:center;font-weight:600}
+.buy{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:auto}
+.total{font-size:13px;color:var(--muted)}
+@media (max-width:720px){.det{grid-template-columns:1fr}.det .pic{min-height:0;aspect-ratio:1}.det .txt{padding:22px 18px}}
+
+.fab{position:fixed;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:15;width:58px;height:58px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.28);text-decoration:none}
+.fab .ic{width:30px;height:30px}
+@media (max-width:480px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.info{padding:12px 12px 4px}.card .btn{margin:8px 12px 12px;padding:0 10px;font-size:12px}.tools{grid-template-columns:1fr}.sort{width:100%}.price{font-size:19px}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35M12.05 21.78h-.01a9.9 9.9 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.9 9.9 0 0 1-1.51-5.26c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 7c0 5.45-4.44 9.89-9.89 9.89m8.41-18.3A11.8 11.8 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.69 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.49-8.43"/></symbol></svg>
+
+<header class="top"><div class="wrap bar">
+  <a class="brand" href="./" aria-label="EG Confecções, início">
+    <span class="mark" aria-hidden="true"><i>E</i><b>G</b></span>
+    <span><strong>Confecções</strong><small>Impressão 3D</small></span>
+  </a>
+  <a class="btn wa sm" id="waTop" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>WhatsApp</a>
+</div></header>
+
+<section class="hero"><div class="wrap hero-in">
+  <div>
+    <div class="eyebrow">Catálogo de peças</div>
+    <h1>Pequenas peças, impressas <em>camada por camada</em>.</h1>
+    <p>Chaveiros, presentes e lembranças em impressão 3D. Escolha o seu favorito e peça direto pelo WhatsApp.</p>
+    <div class="cta">
+      <a class="btn pri" href="#catalogo">Ver catálogo</a>
+      <a class="btn wa" id="waHero" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>Chamar no WhatsApp</a>
+    </div>
+    <div class="note" id="notice"></div>
+  </div>
+  <svg class="vase" viewBox="0 0 200 250" aria-hidden="true">
+    <defs>
+      <clipPath id="vz"><path d="M78 96H122C120 112 132 122 146 140C160 160 158 196 148 212C142 220 124 224 100 224C76 224 58 220 52 212C42 196 40 160 54 140C68 122 80 112 78 96Z"/></clipPath>
+      <linearGradient id="vg" x1="0" x2="1"><stop offset="0" style="stop-color:var(--bronze)"/><stop offset="1" style="stop-color:var(--accent-text)"/></linearGradient>
+      <path id="rib" d="M30 96C82 130 90 190 150 240" fill="none"/>
+    </defs>
+    <line x1="8" y1="36" x2="192" y2="36" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+    <rect x="86" y="26" width="28" height="24" rx="3" fill="var(--ink)"/>
+    <path d="M94 50h12l-4 12h-4z" fill="var(--ink)"/>
+    <path d="M100 62c-6 6 6 10 0 16s6 10 0 18" fill="none" stroke="var(--bronze)" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M78 96H122C120 112 132 122 146 140C160 160 158 196 148 212C142 220 124 224 100 224C76 224 58 220 52 212C42 196 40 160 54 140C68 122 80 112 78 96Z" fill="url(#vg)"/>
+    <g clip-path="url(#vz)" stroke="rgba(255,255,255,.3)" stroke-width="3.5">
+      <use href="#rib" x="0"/><use href="#rib" x="16"/><use href="#rib" x="32"/><use href="#rib" x="48"/><use href="#rib" x="64"/><use href="#rib" x="80"/><use href="#rib" x="96"/>
+    </g>
+    <ellipse cx="100" cy="228" rx="64" ry="7" fill="var(--ink)"/>
+  </svg>
+</div></section>
+
+<main class="wrap" id="catalogo">
+  <div class="tools">
+    <label class="search"><span class="sr">Buscar peça</span>
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="Buscar peça" autocomplete="off">
+    </label>
+    <label><span class="sr">Ordenar</span>
+      <select id="sort" class="sort">
+        <option value="default">Em destaque</option>
+        <option value="asc">Menor preço</option>
+        <option value="desc">Maior preço</option>
+        <option value="az">Nome (A–Z)</option>
+      </select>
+    </label>
+    <div class="chips" id="chips" role="group" aria-label="Categorias"></div>
+  </div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <div class="grid" id="grid"><p class="msg">Carregando peças…</p></div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <h2>Vamos conversar?</h2>
+      <p>Chame a EG Confecções no WhatsApp para fazer seu pedido, tirar dúvidas ou combinar uma peça diferente.</p>
+    </div>
+    <ul>
+      <li><a class="btn wa" id="waFoot" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span id="waNum">WhatsApp</span></a></li>
+      <li><a class="link" id="ig" target="_blank" rel="noopener">Instagram <span id="igName"></span></a></li>
+    </ul>
+  </div>
+  <div class="wrap copy">© 2026 EG Confecções · Impressão 3D. Todos os direitos reservados.</div>
+</footer>
+
+<a class="fab" id="fab" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp"><svg class="ic"><use href="#i-wa"/></svg></a>
+
+<dialog id="dlg" aria-labelledby="dName">
+  <button class="x" id="dClose" aria-label="Fechar">×</button>
+  <div class="det">
+    <div class="pic"><img id="dImg" alt=""></div>
+    <div class="txt">
+      <div class="cat" id="dCat"></div>
+      <h2 id="dName"></h2>
+      <div class="price" id="dPrice"></div>
+      <p id="dDesc"></p>
+      <dl id="dDet"></dl>
+      <div class="buy">
+        <div class="qty" role="group" aria-label="Quantidade"><button id="qMinus" aria-label="Menos">−</button><output id="qVal">1</output><button id="qPlus" aria-label="Mais">+</button></div>
+        <a class="btn wa" id="dBuy" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>Pedir no WhatsApp</a>
+      </div>
+      <div class="total" id="dTotal"></div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  var $=function(s){return document.querySelector(s)};
+  var brl=function(n){return Number(n).toLocaleString('pt-BR',{style:'currency',currency:'BRL'})};
+  var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+  var norm=function(s){return String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()};
+  var DB,S={cat:'Todos',q:'',sort:'default'},cur=null,qty=1;
+
+  function wa(msg){var n=(DB.settings.whatsapp||'').replace(/\D/g,'');return 'https://wa.me/'+n+(msg?'?text='+encodeURIComponent(msg):'')}
+  function orderMsg(p,q){return 'Olá! Vi o catálogo da EG Confecções e quero pedir: '+q+'x '+p.name+' ('+brl(p.price)+' cada). Pode me ajudar?'}
+
+  function setup(){
+    var st=DB.settings,gen='Olá! Vim pelo catálogo da EG Confecções e gostaria de mais informações.';
+    ['waTop','waHero','waFoot','fab'].forEach(function(id){$('#'+id).href=wa(gen)});
+    var d=(st.whatsapp||'').replace(/\D/g,'').replace(/^55/,'');
+    $('#waNum').textContent=d.length>=10?'('+d.slice(0,2)+') '+d.slice(2,-4)+'-'+d.slice(-4):'WhatsApp';
+    var ig=(st.instagram||'').replace('@','');
+    if(ig){$('#ig').href='https://instagram.com/'+ig;$('#igName').textContent='@'+ig}else{$('#ig').parentNode.hidden=true}
+    $('#notice').textContent=st.notice||'';
+  }
+
+  function visible(){
+    var q=norm(S.q);
+    var a=DB.products.filter(function(p){
+      return (S.cat==='Todos'||p.category===S.cat)&&(!q||norm(p.name+' '+p.category+' '+(p.description||'')).indexOf(q)>-1)
+    });
+    if(S.sort==='asc')a.sort(function(x,y){return x.price-y.price});
+    if(S.sort==='desc')a.sort(function(x,y){return y.price-x.price});
+    if(S.sort==='az')a.sort(function(x,y){return x.name.localeCompare(y.name,'pt-BR')});
+    if(S.sort==='default')a.sort(function(x,y){return (y.featured?1:0)-(x.featured?1:0)});
+    return a;
+  }
+
+  function chips(){
+    var cats=[];DB.products.forEach(function(p){if(p.category&&cats.indexOf(p.category)<0)cats.push(p.category)});
+    var list=['Todos'].concat(cats);
+    $('#chips').innerHTML=list.map(function(c){
+      var n=c==='Todos'?DB.products.length:DB.products.filter(function(p){return p.category===c}).length;
+      return '<button class="chip" data-c="'+esc(c)+'" aria-pressed="'+(S.cat===c)+'">'+esc(c)+' <span>'+n+'</span></button>'
+    }).join('');
+  }
+
+  function render(){
+    var a=visible();
+    $('#count').textContent=a.length===1?'1 peça':a.length+' peças';
+    if(!a.length){$('#grid').innerHTML='<p class="msg">Nenhuma peça encontrada. Tente outra palavra ou escolha “Todos”.</p>';return}
+    $('#grid').innerHTML=a.map(function(p){
+      var off=p.available===false;
+      return '<article class="card"><button class="open" data-id="'+esc(p.id)+'" aria-label="Ver detalhes de '+esc(p.name)+'">'
+        +'<div class="ph">'+(off?'<span class="tag">Esgotado</span>':(p.featured?'<span class="tag">Destaque</span>':''))
+        +'<img src="'+esc(p.image)+'" alt="'+esc(p.name)+'" loading="lazy" decoding="async" width="400" height="400"></div>'
+        +'<div class="info"><div class="cat">'+esc(p.category)+'</div><h3>'+esc(p.name)+'</h3><div class="price">'+brl(p.price)+'</div></div></button>'
+        +'<a class="btn wa sm" target="_blank" rel="noopener" href="'+wa(off?'Olá! Vi o catálogo da EG Confecções. A peça '+p.name+' está disponível para encomenda?':orderMsg(p,1))+'"><svg class="ic"><use href="#i-wa"/></svg>'+(off?'Perguntar':'Pedir')+'</a></article>';
+    }).join('');
+  }
+
+  function openItem(id){
+    cur=DB.products.filter(function(p){return p.id===id})[0];if(!cur)return;qty=1;
+    $('#dImg').src=cur.image;$('#dImg').alt=cur.name;
+    $('#dCat').textContent=cur.category;$('#dName').textContent=cur.name;$('#dPrice').textContent=brl(cur.price);
+    $('#dDesc').textContent=cur.description||'';$('#dDesc').hidden=!cur.description;
+    var d=cur.details||{},rows=[['Material',d.material],['Tamanho',d.size],['Cores',d.colors]].filter(function(r){return r[1]});
+    $('#dDet').innerHTML=rows.map(function(r){return '<dt>'+r[0]+'</dt><dd>'+esc(r[1])+'</dd>'}).join('');$('#dDet').hidden=!rows.length;
+    upd();$('#dlg').showModal();
+  }
+  function upd(){
+    $('#qVal').textContent=qty;
+    var off=cur.available===false;
+    $('#dBuy').href=wa(off?'Olá! Vi o catálogo da EG Confecções. A peça '+cur.name+' está disponível para encomenda?':orderMsg(cur,qty));
+    $('#dBuy').lastChild.textContent=off?'Perguntar no WhatsApp':'Pedir no WhatsApp';
+    $('#dTotal').textContent=off?'Peça esgotada no momento. Pergunte sobre encomenda.':(qty>1?'Total: '+brl(cur.price*qty):'');
+  }
+
+  $('#grid').addEventListener('click',function(e){var b=e.target.closest('.open');if(b)openItem(b.dataset.id)});
+  $('#chips').addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;S.cat=b.dataset.c;chips();render()});
+  $('#q').addEventListener('input',function(e){S.q=e.target.value;render()});
+  $('#sort').addEventListener('change',function(e){S.sort=e.target.value;render()});
+  $('#qMinus').onclick=function(){if(qty>1){qty--;upd()}};
+  $('#qPlus').onclick=function(){if(qty<99){qty++;upd()}};
+  $('#dClose').onclick=function(){$('#dlg').close()};
+  $('#dlg').addEventListener('click',function(e){if(e.target===this)this.close()});
+
+  fetch('products.json?v='+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
+    DB=j;setup();chips();render();
+  }).catch(function(){$('#grid').innerHTML='<p class="msg">Não foi possível carregar o catálogo agora. Atualize a página ou chame a gente no WhatsApp.</p>'});
+})();
+</script>
+</body>
+</html>

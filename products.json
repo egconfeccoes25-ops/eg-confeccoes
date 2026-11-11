@@ -1,0 +1,309 @@
+{
+ "settings": {
+  "whatsapp": "5581994582738",
+  "instagram": "eg_confeccoes25",
+  "notice": "Valores de revenda. Peça direto pelo WhatsApp."
+ },
+ "products": [
+  {
+   "id": "chaveiro-coruja",
+   "name": "Chaveiro Coruja",
+   "price": 9,
+   "category": "Chaveiros",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/52bb8caa-a4fb-4eea-8ea4-a15ffaa928a4/w1024_2ff81179-6f3f-426e-b44d-7db7514d8c44.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-estrela-do-mario",
+   "name": "Chaveiro Estrela Do Mario",
+   "price": 7,
+   "category": "Geek e Games",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/0844b7ea-57be-42c2-9cb6-caae64257ba0/w1024_a8351434-53c7-4e9c-9a3d-69595df4fed9.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-ore-e-confie",
+   "name": "Chaveiro Ore E Confie",
+   "price": 6,
+   "category": "Fé e Proteção",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/eeb49e90-e4fc-4267-b2b0-c2d10dc26941/w1024_4754bfda-026e-4418-8a6e-ec860f3897d4.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-furia-da-luz",
+   "name": "Chaveiro Fúria Da Luz",
+   "price": 9,
+   "category": "Geek e Games",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/f7393462-0e06-4048-93a7-c893acefb739/w1024_aa53a768-f8f6-48d6-acdc-d483b8f04a35.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-banguela",
+   "name": "Chaveiro Banguela",
+   "price": 9,
+   "category": "Geek e Games",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/a4a66903-f386-4261-b315-9ac6623d26eb/w1024_8e00cb16-f8d9-419b-9042-6e13e2bf1bef.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-elefante-flexivel",
+   "name": "Chaveiro Elefante Flexível",
+   "price": 6,
+   "category": "Flexíveis",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/ae73def9-61ca-4c1a-8f1e-ee443e0c08ad/w1024_81ba6311-0131-4a56-9c5c-55345e2f7889.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-gato-flexivel",
+   "name": "Chaveiro Gato Flexível",
+   "price": 7,
+   "category": "Flexíveis",
+   "description": "Nas cores branco e preto.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/9d9cdb93-a8f9-43f2-822b-b14f6e9dbf5b/w1024_071a6a14-9703-43b1-aea0-1a8146c2de19.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-i-love-jesus",
+   "name": "Chaveiro I Love Jesus",
+   "price": 6,
+   "category": "Fé e Proteção",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/1d3d4834-6ea3-4365-9b30-f9024801e4bb/w1024_d105995d-e542-4b5c-9b4f-b4c82c63d627.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-nossa-senhora",
+   "name": "Chaveiro Nossa Senhora",
+   "price": 6,
+   "category": "Fé e Proteção",
+   "description": "Chaveiro circular.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/053fbf90-e571-4ad3-9132-c3e7392f1309/w1024_7a6444fc-350f-4909-89a0-3786261e8e1f.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-de-clique",
+   "name": "Chaveiro De Clique",
+   "price": 8,
+   "category": "Chaveiros",
+   "description": "Chaveiro de click de animais.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/d1fd3921-d934-42ac-97ef-e51f2a036034/w1024_349e9acd-9c5c-4037-8650-c8369d2ca2bc.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-fotografia",
+   "name": "Chaveiro Fotografia",
+   "price": 7,
+   "category": "Chaveiros",
+   "description": "Adicione nele o momento favorito, para carregar por onde for.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/8499b791-e1ce-45a4-91b6-b20d371946e4/w1024_720290b4-c44b-4ddd-9556-9a03ff4bac8b.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "flor-antiestresse",
+   "name": "Flor Antiestresse",
+   "price": 7,
+   "category": "Antiestresse",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/660a5553-cd8a-40b0-a4f2-7a863d679b19/w1024_870d1eeb-fe8e-41c5-8acb-112f55ad3ca5.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-clique-de-cafe",
+   "name": "Chaveiro Clique De Café",
+   "price": 8,
+   "category": "Chaveiros",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/76d9bc5a-f75c-49c7-b575-e6eb9789c075/w1024_d2c03035-b997-4f6a-8e23-f9e72ae2e4de.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-suporte-para-celular",
+   "name": "Chaveiro Suporte Para Celular",
+   "price": 7.5,
+   "category": "Chaveiros",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/9f8bcc2f-a519-4237-bf1a-e70803d06346/w1024_9d827494-e164-4021-987c-c919e2f90a79.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-cubo-do-mario",
+   "name": "Chaveiro Cubo Do Mario",
+   "price": 7,
+   "category": "Geek e Games",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/531e1db1-fe21-4e48-91eb-a02a37be62a3/w1024_7b5daca6-47e0-490a-a886-203af97898e3.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-jesus-te-ama",
+   "name": "Chaveiro Jesus Te Ama",
+   "price": 6,
+   "category": "Fé e Proteção",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/444a12ab-1e5d-4961-8eb1-866d024a83a4/w1600_04d3be9a-3b27-4dd6-abd3-ca27b250a574.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-groot",
+   "name": "Chaveiro Groot",
+   "price": 9,
+   "category": "Geek e Games",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/334bee06-32b7-493b-aa1b-5be8c7d774be/w1600_85c10218-5f4a-4aff-bf73-b3488f899b52.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-rei-leao-flexivel",
+   "name": "Chaveiro Rei Leão Flexível",
+   "price": 9,
+   "category": "Flexíveis",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/14766c83-c726-4d15-bcd9-639d5773fef7/w1600_a2a2f26d-2fd0-414b-abf7-74def95a55c1.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "chaveiro-jesus",
+   "name": "Chaveiro Jesus",
+   "price": 6,
+   "category": "Fé e Proteção",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/b8feafd8-49de-447a-827b-8ead28dd8d9d/w1600_cc32c4f0-4c09-4644-9919-b7c3fe2604cd.webp",
+   "available": true,
+   "featured": false
+  },
+  {
+   "id": "cubo-infinito",
+   "name": "Cubo Infinito",
+   "price": 12,
+   "category": "Antiestresse",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "image": "https://storage.googleapis.com/product-images-kontro/d4743a76-2510-4fcf-a5ae-335c59421089/w1600_6fe96414-7ad0-4824-9265-2099f604914a.webp",
+   "available": true,
+   "featured": false
+  }
+ ]
+}
