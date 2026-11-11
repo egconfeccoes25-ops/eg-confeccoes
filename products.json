@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "chaveiro-coracao-sensorial-xei1",
+   "image": "images/chaveiro-coracao-sensorial-xei1.jpg",
+   "name": "Chaveiro Coração Sensorial",
+   "price": 10,
+   "category": "Antiestresse",
+   "description": "Em varias cores disponíveis",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "chaveiro-coruja",
    "name": "Chaveiro Coruja",
    "price": 12,
