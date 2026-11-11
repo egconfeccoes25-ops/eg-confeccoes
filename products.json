@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "chaveiro-com-nfc-3g87",
+   "image": "images/chaveiro-com-nfc-3g87.jpg",
+   "name": "Chaveiro Com NFC",
+   "price": 15,
+   "category": "Chaveiros",
+   "description": "De varios tipos, instagram, whatsapp, tiktok, site de catalogo, entre outros",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "fidget-sensorial-0lh4",
    "image": "images/fidget-sensorial-0lh4.jpg",
    "name": "Fidget Sensorial",
