@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "porta-chaves-home-4vp2",
+   "image": "images/porta-chaves-home-4vp2.jpg",
+   "name": "Porta Chaves - HOME",
+   "price": 24.9,
+   "category": "Porta Chaves",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "chaveiro-com-nfc-3g87",
    "image": "images/chaveiro-com-nfc-3g87.jpg",
    "name": "Chaveiro Com NFC",
