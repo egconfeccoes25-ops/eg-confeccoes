@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "fidget-sensorial-0lh4",
+   "image": "images/fidget-sensorial-0lh4.jpg",
+   "name": "Fidget Sensorial",
+   "price": 20,
+   "category": "Antiestresse",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "chaveiro-coracao-sensorial-xei1",
    "image": "images/chaveiro-coracao-sensorial-xei1.jpg",
    "name": "Chaveiro Coração Sensorial",
