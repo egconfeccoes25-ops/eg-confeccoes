@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "fidget-ball-jow9",
+   "image": "images/fidget-ball-jow9.jpg",
+   "name": "Fidget Ball",
+   "price": 27.9,
+   "category": "Antiestresse",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "moldura-personalizada-i4jk",
    "image": "images/moldura-personalizada-i4jk.jpg",
    "name": "Moldura Personalizada",
