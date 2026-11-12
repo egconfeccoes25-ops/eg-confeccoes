@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "porta-chaves-home-sweet-home-jsct",
+   "image": "images/porta-chaves-home-sweet-home-jsct.jpg",
+   "name": "Porta Chaves - Home Sweet Home",
+   "price": 14.9,
+   "category": "Porta Chaves",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "porta-chaves-com-prateleira-i7o2",
    "image": "images/porta-chaves-com-prateleira-i7o2.jpg",
    "name": "Porta Chaves - Com prateleira",
