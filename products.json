@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-1-natal-0gob",
+   "image": "images/kit-1-natal-0gob.jpg",
+   "name": "Kit 1 - Natal",
+   "price": 64.9,
+   "category": "Natal",
+   "description": "Boneco de Neve + arvore + rena",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "luminaria-retrato-led-10cm-xd6f",
    "image": "images/luminaria-retrato-led-10cm-xd6f.jpg",
    "name": "Luminária Retrato LED - 10cm",
