@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "funko-pet-btcx",
+   "image": "images/funko-pet-btcx.jpg",
+   "name": "Funko Pet",
+   "price": 109.9,
+   "category": "Funko Pet",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "casal-coelhinho-fofo-9u1q",
    "image": "images/casal-coelhinho-fofo-9u1q.jpg",
    "name": "Casal Coelhinho Fofo",
