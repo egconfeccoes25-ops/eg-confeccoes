@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-6-familia-sagrada-led-natal-lrz0",
+   "image": "images/kit-6-familia-sagrada-led-natal-lrz0.jpg",
+   "name": "Kit 6 - Família Sagrada + LED - Natal",
+   "price": 49.9,
+   "category": "Natal",
+   "description": "Família Sagrada + Porta vela + Vela led + bandeja",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-5-mini-jesus-led-natal-jg5u",
    "image": "images/kit-5-mini-jesus-led-natal-jg5u.jpg",
    "name": "Kit 5 - Mini Jesus + Led - Natal",
