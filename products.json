@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "chaveiro-formatura-abc-c-fotografia-dwg4",
+   "image": "images/chaveiro-formatura-abc-c-fotografia-dwg4.jpg",
+   "name": "Chaveiro Formatura ABC c/ fotografia",
+   "price": 15,
+   "category": "Formatura ABC",
+   "description": "Nos envie a foto que fazemos o restante. Já vem embalado e personalizado.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "funko-pet-btcx",
    "image": "images/funko-pet-btcx.jpg",
    "name": "Funko Pet",
