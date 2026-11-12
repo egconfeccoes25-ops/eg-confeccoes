@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-monster-porta-copo-tampa-para-lata-a-sosg",
+   "image": "images/kit-monster-porta-copo-tampa-para-lata-a-sosg.jpg",
+   "name": "Kit Monster (Porta copo + tampa para lata + abridor de lata)",
+   "price": 49.9,
+   "category": "Outros",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "mini-suporte-em-formato-de-microfone-par-qz52",
    "image": "images/mini-suporte-em-formato-de-microfone-par-qz52.jpg",
    "name": "Mini Suporte em Formato de Microfone para Capela",
