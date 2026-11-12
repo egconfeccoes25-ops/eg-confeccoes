@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-5-mini-jesus-led-natal-jg5u",
+   "image": "images/kit-5-mini-jesus-led-natal-jg5u.jpg",
+   "name": "Kit 5 - Mini Jesus + Led - Natal",
+   "price": 74.9,
+   "category": "Natal",
+   "description": "Mini jesus na cadeira de balanço + Árvore de natal + porta vela + Vela de led + bandeja",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-4-mini-jesus-natal-f4nq",
    "image": "images/kit-4-mini-jesus-natal-f4nq.jpg",
    "name": "Kit 4 - Mini Jesus - Natal",
