@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "quadro-do-recem-nascido-rn-n5xo",
+   "image": "images/quadro-do-recem-nascido-rn-n5xo.jpg",
+   "name": "Quadro do Recém Nascido (RN)",
+   "price": 49.9,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "fidget-ball-jow9",
    "image": "images/fidget-ball-jow9.jpg",
    "name": "Fidget Ball",
