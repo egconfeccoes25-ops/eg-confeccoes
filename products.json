@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "mini-jesus-sentado-szoz",
+   "image": "images/mini-jesus-sentado-szoz.jpg",
+   "name": "Mini Jesus Sentado",
+   "price": 10.9,
+   "category": "Religioso",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "5,5cm",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-6-familia-sagrada-led-natal-lrz0",
    "image": "images/kit-6-familia-sagrada-led-natal-lrz0.jpg",
    "name": "Kit 6 - Família Sagrada + LED - Natal",
