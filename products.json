@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "coelhinha-fofa-7y2j",
+   "image": "images/coelhinha-fofa-7y2j.jpg",
+   "name": "Coelhinha Fofa",
+   "price": 29.9,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "ancora-com-farol-5rhe",
    "image": "images/ancora-com-farol-5rhe.jpg",
    "name": "Ancora Com Farol",
