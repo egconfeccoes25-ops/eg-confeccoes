@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "casal-coelhinho-fofo-9u1q",
+   "image": "images/casal-coelhinho-fofo-9u1q.jpg",
+   "name": "Casal Coelhinho Fofo",
+   "price": 52.9,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "coelhinho-fofo-8nz2",
    "image": "images/coelhinho-fofo-8nz2.jpg",
    "name": "Coelhinho Fofo",
