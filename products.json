@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-4-mini-jesus-natal-f4nq",
+   "image": "images/kit-4-mini-jesus-natal-f4nq.jpg",
+   "name": "Kit 4 - Mini Jesus - Natal",
+   "price": 64.9,
+   "category": "Natal",
+   "description": "Mini Jesus na cadeira de balanço + Arvore \n+ bandeja",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-3-familia-noel-natal-cks1",
    "image": "images/kit-3-familia-noel-natal-cks1.jpg",
    "name": "Kit 3 - Familia Noel - Natal",
