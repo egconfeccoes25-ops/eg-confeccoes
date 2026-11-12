@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "porta-chaves-com-prateleira-i7o2",
+   "image": "images/porta-chaves-com-prateleira-i7o2.jpg",
+   "name": "Porta Chaves - Com prateleira",
+   "price": 37.9,
+   "category": "Porta Chaves",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "porta-chaves-home-2-fopj",
    "image": "images/porta-chaves-home-2-fopj.jpg",
    "name": "Porta Chaves - Home 2",
