@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "porta-chaves-deus-e-bom-o-tempo-todo-8qna",
+   "image": "images/porta-chaves-deus-e-bom-o-tempo-todo-8qna.jpg",
+   "name": "Porta Chaves - Deus é bom o tempo todo",
+   "price": 14.9,
+   "category": "Porta Chaves",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "porta-chaves-home-4vp2",
    "image": "images/porta-chaves-home-4vp2.jpg",
    "name": "Porta Chaves - HOME",
