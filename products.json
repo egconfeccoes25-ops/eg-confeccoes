@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "luminaria-retrato-led-10cm-xd6f",
+   "image": "images/luminaria-retrato-led-10cm-xd6f.jpg",
+   "name": "Luminária Retrato LED - 10cm",
+   "price": 30,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "luminaria-retrato-com-led-v2j4",
    "image": "images/luminaria-retrato-com-led-v2j4.jpg",
    "name": "Luminária Retrato com LED",
