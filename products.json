@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-2-natal-1zct",
+   "image": "images/kit-2-natal-1zct.jpg",
+   "name": "Kit 2 - Natal",
+   "price": 64.9,
+   "category": "Natal",
+   "description": "Papai noel + arvore + boneco de neve + bandeja",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-1-natal-0gob",
    "image": "images/kit-1-natal-0gob.jpg",
    "name": "Kit 1 - Natal",
