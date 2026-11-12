@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "funko-pop-casal-xz0j",
+   "image": "images/funko-pop-casal-xz0j.jpg",
+   "name": "Funko Pop - Casal",
+   "price": 169.9,
+   "category": "Funko Pop",
+   "description": "Miniatura. 2 adultos na mesma base. Envie sua foto favorita, que criamos a sua miniatura perfeita.",
+   "details": {
+    "material": "PLA",
+    "size": "10",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "funko-pop-familia-wbyd",
    "image": "images/funko-pop-familia-wbyd.jpg",
    "name": "Funko Pop - Familia",
