@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-3-familia-noel-natal-cks1",
+   "image": "images/kit-3-familia-noel-natal-cks1.jpg",
+   "name": "Kit 3 - Familia Noel - Natal",
+   "price": 199.9,
+   "category": "Natal",
+   "description": "Papai Noel - 15cm\nMamae Noel - 12cm\nRena - 10cm \nArvore de Natal - 18cm",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-2-natal-1zct",
    "image": "images/kit-2-natal-1zct-83of.jpg",
    "name": "Kit 1 - Completo (4 itens + bandeja) - Natal",
