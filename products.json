@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "luminaria-led-farol-uq0k",
+   "image": "images/luminaria-led-farol-uq0k.jpg",
+   "name": "Luminária Led Farol",
+   "price": 24.9,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "12",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "mini-jesus-sentado-szoz",
    "image": "images/mini-jesus-sentado-szoz.jpg",
    "name": "Mini Jesus Sentado",
