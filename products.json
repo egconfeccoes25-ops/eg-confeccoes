@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "coelhinho-fofo-8nz2",
+   "image": "images/coelhinho-fofo-8nz2.jpg",
+   "name": "Coelhinho Fofo",
+   "price": 29.9,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "coelhinha-fofa-7y2j",
    "image": "images/coelhinha-fofa-7y2j.jpg",
    "name": "Coelhinha Fofa",
