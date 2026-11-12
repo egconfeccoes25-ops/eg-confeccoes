@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "ancora-com-farol-5rhe",
+   "image": "images/ancora-com-farol-5rhe.jpg",
+   "name": "Ancora Com Farol",
+   "price": 29.9,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "porta-joias-de-concha-3tob",
    "image": "images/porta-joias-de-concha-3tob.jpg",
    "name": "Porta Jóias de Concha",
