@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "moinho-de-vento-218w",
+   "image": "images/moinho-de-vento-218w.jpg",
+   "name": "Moinho de Vento",
+   "price": 29.9,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "porta-terco-zuc7",
    "image": "images/porta-terco-zuc7.jpg",
    "name": "Porta Terço",
