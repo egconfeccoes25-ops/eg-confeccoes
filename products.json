@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "moldura-personalizada-i4jk",
+   "image": "images/moldura-personalizada-i4jk.jpg",
+   "name": "Moldura Personalizada",
+   "price": 39.9,
+   "category": "Formatura ABC",
+   "description": "Personalizamos com a cor que desejar, e com o nome do formando.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "chaveiro-formatura-com-inicial-do-forman-gaos",
    "image": "images/chaveiro-formatura-com-inicial-do-forman-gaos.jpg",
    "name": "Chaveiro Formatura Com Inicial do Formando",
