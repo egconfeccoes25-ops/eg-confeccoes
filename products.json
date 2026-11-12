@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "porta-terco-zuc7",
+   "image": "images/porta-terco-zuc7.jpg",
+   "name": "Porta Terço",
+   "price": 24.9,
+   "category": "Religioso",
+   "description": "",
+   "details": {
+    "material": "PLA",
+    "size": "15",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "funko-pop-casal-xz0j",
    "image": "images/funko-pop-casal-xz0j.jpg",
    "name": "Funko Pop - Casal",
