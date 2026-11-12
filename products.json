@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "chaveiro-formatura-com-inicial-do-forman-gaos",
+   "image": "images/chaveiro-formatura-com-inicial-do-forman-gaos.jpg",
+   "name": "Chaveiro Formatura Com Inicial do Formando",
+   "price": 12,
+   "category": "Formatura ABC",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "chaveiro-formatura-abc-c-fotografia-dwg4",
    "image": "images/chaveiro-formatura-abc-c-fotografia-dwg4.jpg",
    "name": "Chaveiro Formatura ABC c/ fotografia",
