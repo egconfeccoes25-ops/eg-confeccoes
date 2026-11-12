@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "luminaria-retrato-com-led-v2j4",
+   "image": "images/luminaria-retrato-com-led-v2j4.jpg",
+   "name": "Luminária Retrato com LED",
+   "price": 59.9,
+   "category": "Decoração",
+   "description": "altura de 15cm. Nos envie sua foto favorita, para presentear ou decorar seu ambiente.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-monster-porta-copo-tampa-para-lata-a-sosg",
    "image": "images/kit-monster-porta-copo-tampa-para-lata-a-sosg.jpg",
    "name": "Kit Monster (Porta copo + tampa para lata + abridor de lata)",
