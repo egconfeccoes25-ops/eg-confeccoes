@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "mini-suporte-em-formato-de-microfone-par-qz52",
+   "image": "images/mini-suporte-em-formato-de-microfone-par-qz52.jpg",
+   "name": "Mini Suporte em Formato de Microfone para Capela",
+   "price": 24.12,
+   "category": "Influencer",
+   "description": "Conseguimos adicionar sua marca <3",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "quadro-do-recem-nascido-rn-n5xo",
    "image": "images/quadro-do-recem-nascido-rn-n5xo.jpg",
    "name": "Quadro do Recém Nascido (RN)",
