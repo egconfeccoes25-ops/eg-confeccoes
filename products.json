@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "organizador-de-cabo-oreo-naxs",
+   "image": "images/organizador-de-cabo-oreo-naxs.jpg",
+   "name": "Organizador de Cabo Oreo",
+   "price": 18,
+   "category": "Organização",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "porta-chaves-home-sweet-home-jsct",
    "image": "images/porta-chaves-home-sweet-home-jsct.jpg",
    "name": "Porta Chaves - Home Sweet Home",
