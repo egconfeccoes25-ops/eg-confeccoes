@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "funko-pop-familia-wbyd",
+   "image": "images/funko-pop-familia-wbyd.jpg",
+   "name": "Funko Pop - Familia",
+   "price": 209,
+   "category": "Funko Pop",
+   "description": "Miniatura. 2 adulto + Criança ou pet na mesma base base. Envie sua foto favorita em familia, que criamos a sua miniatura perfeita.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "funko-pop-personalizado-1-pessoa-pbio",
    "image": "images/funko-pop-personalizado-1-pessoa-pbio-r5v4.jpg",
    "name": "Funko Pop Personalizado - 1 pessoa",
