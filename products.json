@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "porta-joias-de-concha-3tob",
+   "image": "images/porta-joias-de-concha-3tob.jpg",
+   "name": "Porta Jóias de Concha",
+   "price": 24.9,
+   "category": "Decoração",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "moinho-de-vento-218w",
    "image": "images/moinho-de-vento-218w.jpg",
    "name": "Moinho de Vento",
