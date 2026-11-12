@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "quebra-cabeca-divertido-wbt1",
+   "image": "images/quebra-cabeca-divertido-wbt1.jpg",
+   "name": "Quebra Cabeça Divertido",
+   "price": 49.9,
+   "category": "Puzzle",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "luminaria-led-farol-uq0k",
    "image": "images/luminaria-led-farol-uq0k.jpg",
    "name": "Luminária Led Farol",
