@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "quebra-cabeca-t-2nk3",
+   "image": "images/quebra-cabeca-t-2nk3.jpg",
+   "name": "Quebra Cabeça T",
+   "price": 49.9,
+   "category": "Puzzle",
+   "description": "O objetivo aqui é tentar encaixar na caixa que tem entrada com formato de T, todas as 6 peças amarelas em formato de T dentro dela apenas pela abertura.",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "quebra-cabeca-divertido-wbt1",
    "image": "images/quebra-cabeca-divertido-wbt1.jpg",
    "name": "Quebra Cabeça Divertido",
