@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "chaveiro-banguela-8str",
+   "image": "images/chaveiro-banguela-8str.jpg",
+   "name": "Chaveiro Banguela",
+   "price": 13,
+   "category": "Chaveiros",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "chaveiro-furia-da-luz-7v9r",
    "image": "images/chaveiro-furia-da-luz-7v9r.jpg",
    "name": "Chaveiro Fúria da Luz",
