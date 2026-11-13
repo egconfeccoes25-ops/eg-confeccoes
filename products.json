@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "chaveiro-furia-da-luz-7v9r",
+   "image": "images/chaveiro-furia-da-luz-7v9r.jpg",
+   "name": "Chaveiro Fúria da Luz",
+   "price": 13,
+   "category": "Chaveiros",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "quebra-cabeca-t-2nk3",
    "image": "images/quebra-cabeca-t-2nk3-m9i7.jpg",
    "name": "Quebra Cabeça T",
