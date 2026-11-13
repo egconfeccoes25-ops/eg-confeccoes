@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "chaveiro-casal-banguela-e-furia-da-luz-9yna",
+   "image": "images/chaveiro-casal-banguela-e-furia-da-luz-9yna.jpg",
+   "name": "Chaveiro Casal(Banguela e Fúria da luz)",
+   "price": 24,
+   "category": "Chaveiros",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "chaveiro-banguela-8str",
    "image": "images/chaveiro-banguela-8str.jpg",
    "name": "Chaveiro Banguela",
