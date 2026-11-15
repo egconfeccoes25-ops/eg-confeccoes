@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "arvore-de-nomes-familia-20cm-natal-6ep8",
+   "image": "images/arvore-de-nomes-familia-20cm-natal-6ep8.jpg",
+   "name": "Árvore de Nomes Família 20cm - Natal",
+   "price": 49.9,
+   "category": "Natal",
+   "description": "Nos envie o nome dos familiares para eternizarmos na sua decoração",
+   "details": {
+    "material": "",
+    "size": "20cm altura",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "arvore-de-nomes-familia-15cm-natal-4g44",
    "image": "images/arvore-de-nomes-familia-15cm-natal-4g44.jpg",
    "name": "Árvore de Nomes Família 15cm - Natal",
