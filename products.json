@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "enfeites-personalizados-com-nome-1-und-2x9e",
+   "image": "images/enfeites-personalizados-com-nome-1-und-2x9e.jpg",
+   "name": "Enfeites Personalizados com nome - 1 und",
+   "price": 10,
+   "category": "Natal",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "arvore-de-nomes-familia-20cm-natal-6ep8",
    "image": "images/arvore-de-nomes-familia-20cm-natal-6ep8.jpg",
    "name": "Árvore de Nomes Família 20cm - Natal",
