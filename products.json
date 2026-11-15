@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "enfeites-personalizados-com-nome-5-und-4k9b",
+   "image": "images/enfeites-personalizados-com-nome-5-und-4k9b.jpg",
+   "name": "Enfeites Personalizados com Nome - 5 und",
+   "price": 29.9,
+   "category": "Natal",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "enfeites-personalizados-com-nome-1-und-2x9e",
    "image": "images/enfeites-personalizados-com-nome-1-und-2x9e.jpg",
    "name": "Enfeites Personalizados com nome - 1 und",
