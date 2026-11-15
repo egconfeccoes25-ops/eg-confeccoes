@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "arvore-de-nomes-familia-15cm-natal-4g44",
+   "image": "images/arvore-de-nomes-familia-15cm-natal-4g44.jpg",
+   "name": "Árvore de Nomes Família 15cm - Natal",
+   "price": 39.9,
+   "category": "Natal",
+   "description": "Mande o nome da sua família e faça uma decoração linda",
+   "details": {
+    "material": "",
+    "size": "15cm altura",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "chaveiro-casal-banguela-e-furia-da-luz-9yna",
    "image": "images/chaveiro-casal-banguela-e-furia-da-luz-9yna.jpg",
    "name": "Chaveiro Casal(Banguela e Fúria da luz)",
