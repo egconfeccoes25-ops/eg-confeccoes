@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-9-feliz-natal-luminaria-oxue",
+   "image": "images/kit-9-feliz-natal-luminaria-oxue.jpg",
+   "name": "Kit 9 - Feliz Natal + luminária",
+   "price": 74.9,
+   "category": "Natal",
+   "description": "Letreiro Feliz Natal + bandeja + luminária presépio com Led",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-8-feliz-natal-juwi",
    "image": "images/kit-8-feliz-natal-juwi.jpg",
    "name": "Kit 8 - Feliz Natal",
