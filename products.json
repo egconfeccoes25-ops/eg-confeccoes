@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-11-casinha-luminaria-arvore-6xlp",
+   "image": "images/kit-11-casinha-luminaria-arvore-6xlp.jpg",
+   "name": "Kit 11 - Casinha Luminária + Árvore",
+   "price": 49.9,
+   "category": "Natal",
+   "description": "Casa luminária acompanha vela led + árvore + bandeja",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "porta-retrato-abc-com-ima-para-geladeira-32r3",
    "image": "images/porta-retrato-abc-com-ima-para-geladeira-32r3.jpg",
    "name": "Porta Retrato ABC com Imã para Geladeira",
