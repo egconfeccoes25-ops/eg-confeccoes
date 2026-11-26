@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-13-feliz-natal-arvore-csdp",
+   "image": "images/kit-13-feliz-natal-arvore-csdp.jpg",
+   "name": "Kit 13 - Feliz Natal + Árvore",
+   "price": 58.9,
+   "category": "Natal",
+   "description": "Letreiro Feliz Natal + árvore + bandeja",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-12-feliz-natal-arvore-led-ayv0",
    "image": "images/kit-12-feliz-natal-arvore-led-ayv0.jpg",
    "name": "Kit 12 - Feliz Natal + árvore + Led",
