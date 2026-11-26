@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-7-natal-f7qh",
+   "image": "images/kit-7-natal-f7qh.jpg",
+   "name": "Kit 7 - Natal",
+   "price": 109.9,
+   "category": "Natal",
+   "description": "Mini jesus + cadeira de balanço + bandeja + estante + livros com NFC que vai direto para os versículos da Bíblia ✨️",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "enfeites-personalizados-com-nome-5-und-4k9b",
    "image": "images/enfeites-personalizados-com-nome-5-und-4k9b.jpg",
    "name": "Enfeites Personalizados com Nome - 5 und",
