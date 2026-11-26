@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-10-presepio-arvore-0p08",
+   "image": "images/kit-10-presepio-arvore-0p08.jpg",
+   "name": "Kit 10 - Presépio + Árvore",
+   "price": 49.9,
+   "category": "Natal",
+   "description": "Presépio + árvore + bandeja",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "natal-luminaria-presepio-uaft",
    "image": "images/natal-luminaria-presepio-uaft.jpg",
    "name": "Natal - Luminária Presépio",
