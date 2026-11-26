@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "porta-retrato-abc-com-ima-para-geladeira-32r3",
+   "image": "images/porta-retrato-abc-com-ima-para-geladeira-32r3.jpg",
+   "name": "Porta Retrato ABC com Imã para Geladeira",
+   "price": 25.9,
+   "category": "Formatura ABC",
+   "description": "",
+   "details": {
+    "material": "",
+    "size": "7x10cm",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-10-presepio-arvore-0p08",
    "image": "images/kit-10-presepio-arvore-0p08.jpg",
    "name": "Kit 10 - Presépio + Árvore",
