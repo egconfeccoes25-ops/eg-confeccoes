@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "natal-luminaria-presepio-uaft",
+   "image": "images/natal-luminaria-presepio-uaft.jpg",
+   "name": "Natal - Luminária Presépio",
+   "price": 34.9,
+   "category": "Natal",
+   "description": "Luminária de presépio acompanha LED",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-9-feliz-natal-luminaria-oxue",
    "image": "images/kit-9-feliz-natal-luminaria-oxue.jpg",
    "name": "Kit 9 - Feliz Natal + luminária",
