@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "kit-8-feliz-natal-juwi",
+   "image": "images/kit-8-feliz-natal-juwi.jpg",
+   "name": "Kit 8 - Feliz Natal",
+   "price": 70.9,
+   "category": "Natal",
+   "description": "Letreiro Feliz Natal + árvore + papai noel + vela led + porta vela + bandeja",
+   "details": {
+    "material": "",
+    "size": "",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-7-natal-f7qh",
    "image": "images/kit-7-natal-f7qh.jpg",
    "name": "Kit 7 - Mini Jesus + Estante com NFC - Natal",
