@@ -6,6 +6,21 @@
  },
  "products": [
   {
+   "id": "luminaria-enrolados-rapunzel-s1up",
+   "image": "images/luminaria-enrolados-rapunzel-s1up.jpg",
+   "name": "Luminária Enrolados - Rapunzel",
+   "price": 38.5,
+   "category": "Luminária",
+   "description": "Luminária já acompanha o LED.",
+   "details": {
+    "material": "PLA",
+    "size": "10x13cm",
+    "colors": ""
+   },
+   "available": true,
+   "featured": false
+  },
+  {
    "id": "kit-13-feliz-natal-arvore-csdp",
    "image": "images/kit-13-feliz-natal-arvore-csdp.jpg",
    "name": "Kit 13 - Feliz Natal + Árvore",
